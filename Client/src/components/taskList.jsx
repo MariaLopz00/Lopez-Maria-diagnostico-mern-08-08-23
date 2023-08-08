@@ -9,7 +9,7 @@ function TaskList({ tasks, onToggleCompletion, onDeleteTask }) {
     <Row xs={1} md={3} className="g-4" style={{marginTop: 5}}>
       {tasks.map((task) => (
          <Col key={task._id}>
-        <Card className='tarjeta' >
+        <Card border="success"  className='tarjeta' >
           <Card.Header>Tarea 😄📑: {task.titulo}</Card.Header>
           <Card.Body>
             <Card.Text>
